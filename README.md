@@ -10,7 +10,12 @@ For detailed environment setup, please refer to the requirements.txt.
 
 Due to file size limitations, the model file could not be uploaded to GitHub. Please download the file from the provided Google Drive link.
 
+only model folders\
+https://drive.google.com/drive/folders/1R_WgCQauVWqW3r0lSEKJR7ACosCO3DMs?usp=drive_link
+
+total early detection folder\
 https://drive.google.com/drive/folders/1ODvokkCCiYCH-68CFVvlYMFF9igpm74o?usp=drive_link
+
 
 # How to Run the BERT-based Model
 
