@@ -6,6 +6,12 @@ transformers==4.39.3
 
 For detailed environment setup, please refer to the requirements.txt.
 
+# Model Files
+
+Due to file size limitations, the model file could not be uploaded to GitHub. Please download the file from the provided Google Drive link.
+
+https://drive.google.com/drive/folders/1ODvokkCCiYCH-68CFVvlYMFF9igpm74o?usp=drive_link
+
 # How to Run the BERT-based Model
 
 This script is used to run a BERT-based model. Use the following command to execute it.
