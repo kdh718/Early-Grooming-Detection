@@ -2,7 +2,7 @@
 
 python >=3.9\
 torch==2.2.1\
-transformers==4.39.3\
+transformers==4.39.3
 
 For detailed environment setup, please refer to the requirements.txt.
 
