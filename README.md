@@ -33,7 +33,6 @@ This script is used to run an LLM-based model. Use the following command to exec
 
 ## Command to Run
 
-```sh
 python LLM_model.py <method> --sentence <sentence> [--check <check>] [--train <train>] [--test <test>] [--SEED <seed>]
 
 Basic Example
