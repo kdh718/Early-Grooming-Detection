@@ -172,7 +172,6 @@ def main():
                 num_train_epochs=5,
                 per_device_train_batch_size=32,
                 gradient_accumulation_steps=1,
-                # max_steps=50, ## 초소량만 학습: 50 step만 학습. 약 4분정도 걸립니다.
                 learning_rate=1e-5,
                 fp16=True,
                 logging_steps=100,
@@ -240,7 +239,7 @@ def main():
                     input_text = dq.text[idx]
                     if idx:
                         query_embedding = get_embedding(input_text)
-                        search_results = memory.search_memory(query_embedding, top_k=2)
+                        search_results = memory.search_memory(query_embedding, top_k=args.sentence-1)
                         search_results = list(set(search_results))
                         context = ", ".join(search_results)
                         current_prompt = f"관련있는 이전 문장 : {context}\n입력된 문장 : {input_text}"
