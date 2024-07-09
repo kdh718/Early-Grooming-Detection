@@ -49,4 +49,5 @@ python LLM_model.py memory --sentence 5 --check 5 --train 1 --test 1 --SEED 123
 Note: Running the LLM model requires a significant amount of memory and time, so please ensure you have a sufficient environment. If your environment is not sufficient, it is recommended to set train and test to 0 and review the experimental results data we have provided.
 
 # Experiment Result
+
 ![experiment table](https://github.com/kdh718/Early-Grooming-Detection/assets/109021286/f48b1b83-3c34-4792-a203-bd39c77cbb2d)
